@@ -1,7 +1,7 @@
 {
   "name": "angular11",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "ng serve --open",
     "start:e2e": "ng serve --prod",
