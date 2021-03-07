@@ -73,6 +73,7 @@ The `styles.scss` file imports all the partials to apply their styling.
 ## Available npm scripts
 
 The scripts in [package.json](package.json) file were built with simplicity in mind to automate as much repetitive tasks as possible and help developers focus on what really matters.
+There are commands to start the application, code linting and formatting, to run unit tests, to run e2e tests via [Protractor](http://www.protractortest.org/), to generate project documentation and changelog, npm audit and [Lighthouse](https://github.com/GoogleChrome/lighthouse), to build, release and deploy the application to [Docker Swarm](https://docs.docker.com/engine/swarm/), and others.
 All the commands should be executed in a console inside the root directory.
 
 ## Development server
