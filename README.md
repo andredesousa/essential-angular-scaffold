@@ -1,10 +1,11 @@
 # Essential Angular Scaffold
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11 and [Node.js](https://nodejs.org/en/about/releases) version 12.
+It has a complete development environment configured, including build, test, and deploy scripts as examples.
 
 ## Table of Contents
 
-- [Project Structure](#project-structure)
+- [Project structure](#project-structure)
 - [Available npm scripts](#available-npm-scripts)
 - [Code scaffolding](#code-scaffolding)
 - [Development server](#development-server)
@@ -17,10 +18,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - [Build and deployment](#build-and-deployment)
 - [Further help](#further-help)
 
-## Project Structure
+## Project structure
 
 When working in a large team with many developers that are responsible for the same codebase, having a common understanding of how the application should be structured is vital.
-Based on best practices from the community, [Angular coding style guide](https://angular.io/guide/styleguide), other github Angular projects, developer experience, your project should look like this:
+Based on best practices from the community, [Angular coding style guide](https://angular.io/guide/styleguide), other github Angular projects and developer experience, your project should look like this:
 
 ```bash
 ├── e2e
@@ -65,7 +66,7 @@ Based on best practices from the community, [Angular coding style guide](https:/
 └── tslint.json
 ```
 
-All of the app’s code goes in a folder named `src`. The end-to-end tests are in the `e2e` folder.
+All of the app's code goes in a folder named `src`. The end-to-end tests are in the `e2e` folder.
 In Angular, everything is organized in modules, and every application have at least one of them, the `app` root module. The `app` module is the entry point of the application, and is the module that Angular uses to bootstrap the application.
 The global styles for the project are placed in a `scss` folder under `assets`.
 The `styles.scss` file imports all the partials to apply their styling.
@@ -91,8 +92,8 @@ You can also use `ng generate directive|pipe|service|class|guard|interface|enum|
 Run `npm run lint` to analyze your code. It includes, `TSLint`, `Prettier`, `stylelint` and other tools.
 Many problems can be automatically fixed with `npm run lint:fix`.
 
-Depending on our editor, you may want to add an editor extension to lint and format our code while we type or on-save.
-To ensure all files committed to git don’t have any TypeScript, linting, or formatting errors, there is a tool called [lint-staged](https://www.npmjs.com/package/lint-staged) that can be used.
+Depending on our editor, you may want to add an editor extension to lint and format our code while you type or on-save.
+To ensure all files committed to git don't have any TypeScript, linting, or formatting errors, there is a tool called [lint-staged](https://www.npmjs.com/package/lint-staged) that can be used.
 When lint-staged is used in combination with [husky](https://www.npmjs.com/package/husky), the linting commands specified with lint-staged can be executed to staged files on pre-commit.
 
 ## Running unit tests
@@ -116,12 +117,11 @@ You can see the HTML report opening the [index.html](dist/e2e/index.html) file i
 ## Debugging
 
 You can debug the client-side Angular code, adding breakpoints, inspect variables and see the call stack of the client-side Angular application.
-These functionalities are provided natively or based on plugins.
 Another tool is [Angular Augury](https://augury.rangle.io/), made by Rangle.io.
 `Augury` is an extension for debugging and profiling Angular applications inside the Google Chrome and Mozilla Firefox browsers.
 You can use our IDE for debugging unit and end-to-end tests.
 These functionalities are provided natively or based on plugins.
-You can [debug](https://www.protractortest.org/#/debugging) async/await tests in chrome inspector with `debugger` keyword if we run `npm run protractor:debug`.
+You can [debug](https://www.protractortest.org/#/debugging) async/await tests in chrome inspector with `debugger` keyword if you run `npm run protractor:debug`.
 When you are using the debug scripts, you need to open the `chrome://inspect` page.
 The same is valid when you run `npm run test:debug` script.
 
@@ -136,7 +136,7 @@ It has audits for performance, accessibility, progressive web apps, SEO and more
 
 ## Commit messages convention
 
-In order to have a consistent git history every commit must follow a specific template. Here’s the template:
+In order to have a consistent git history every commit must follow a specific template. Here's the template:
 
 ```bash
 <type>(<ITEM ID>?): <subject>
